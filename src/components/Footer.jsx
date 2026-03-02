@@ -18,7 +18,7 @@ const Footer = () => {
         {/* Social media icons — horizontal row, bordered squares */}
         <div className="flex items-center gap-3">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/solesource67?igsh=YnJ4b2FqeGxleHB3"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-lg hover:border-gray-500 hover:bg-white transition-all"
@@ -27,7 +27,7 @@ const Footer = () => {
             <img src={instagramIcon} alt="Instagram" className="w-5 h-5" />
           </a>
           <a
-            href="https://wa.me"
+            href="https://wa.me/6283148494413"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-lg hover:border-gray-500 hover:bg-white transition-all"
@@ -36,7 +36,7 @@ const Footer = () => {
             <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
           </a>
           <a
-            href="https://x.com"
+            href="https://x.com/SoleSource6277"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-lg hover:border-gray-500 hover:bg-white transition-all"

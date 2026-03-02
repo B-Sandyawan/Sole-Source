@@ -46,8 +46,8 @@ const ContactsPage = () => {
   const socials = [
     {
       name: "Instagram",
-      handle: "@solesource",
-      url: "https://instagram.com/solesource",
+      handle: "@solesource67",
+      url: "https://www.instagram.com/solesource67?igsh=YnJ4b2FqeGxleHB3",
       icon: (
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
           <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
@@ -58,8 +58,8 @@ const ContactsPage = () => {
     },
     {
       name: "WhatsApp",
-      handle: "+62 812 3456 7890",
-      url: "https://wa.me/6281234567890",
+      handle: "+62 831 4849 4413",
+      url: "https://wa.me/6283148494413",
       icon: (
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
           <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
@@ -68,8 +68,8 @@ const ContactsPage = () => {
     },
     {
       name: "X (Twitter)",
-      handle: "@solesource",
-      url: "https://x.com/solesource",
+      handle: "@SoleSource6277",
+      url: "https://x.com/SoleSource6277",
       icon: (
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />

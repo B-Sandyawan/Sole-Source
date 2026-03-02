@@ -242,15 +242,15 @@ const Navbar = () => {
         <div className="pb-7 pt-4" style={{ paddingLeft: "24px", paddingRight: "24px" }}>
           <div className="border-t border-gray-100 pt-5">
             <div className="flex items-center gap-5 mb-3">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.instagram.com/solesource67?igsh=YnJ4b2FqeGxleHB3" target="_blank" rel="noopener noreferrer"
                 className="opacity-40 hover:opacity-100 transition-opacity" aria-label="Instagram">
                 <img src={instagramIcon} alt="" className="w-5 h-5" />
               </a>
-              <a href="https://wa.me" target="_blank" rel="noopener noreferrer"
+              <a href="https://wa.me/6283148494413" target="_blank" rel="noopener noreferrer"
                 className="opacity-40 hover:opacity-100 transition-opacity" aria-label="WhatsApp">
                 <img src={whatsappIcon} alt="" className="w-5 h-5" />
               </a>
-              <a href="https://x.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://x.com/SoleSource6277" target="_blank" rel="noopener noreferrer"
                 className="opacity-40 hover:opacity-100 transition-opacity" aria-label="X">
                 <img src={xIcon} alt="" className="w-5 h-5" />
               </a>
