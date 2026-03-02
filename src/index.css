@@ -1,0 +1,105 @@
+﻿/* Import Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* Enable class-based dark mode for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom theme configuration */
+@theme {
+  --font-sans: "Open Sans", sans-serif;
+  --font-display: "Barlow Condensed", "Futura Condensed Extra", sans-serif;
+  --color-primary: #000000;
+  --color-secondary: #474747;
+  --color-accent: #e53e3e;
+  --color-surface: #f8f8f8;
+  --color-muted: #707072;
+  --color-muted-light: #70707f;
+}
+
+/* ===== Dark mode global overrides ===== */
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0a0a0a;
+  color: #e5e5e5;
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth scroll for the whole page */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  /* offset for sticky navbar */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for product carousels */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ===== Scroll-triggered section animations ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Section reveal — initially hidden, animated by IntersectionObserver */
+.section-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.section-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card staggered reveal */
+.card-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.card-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
