@@ -1,4 +1,4 @@
-﻿/* Import Tailwind CSS v4 */
+/* Import Tailwind CSS v4 */
 @import "tailwindcss";
 
 /* Enable class-based dark mode for Tailwind v4 */
@@ -28,7 +28,6 @@ html.dark body {
 
 /* Base styles */
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
